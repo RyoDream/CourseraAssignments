@@ -1,4 +1,4 @@
-package DataStructures;
+package DataStructures.week1;
 
 import java.util.*;
 import java.io.*;
