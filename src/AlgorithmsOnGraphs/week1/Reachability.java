@@ -1,4 +1,4 @@
-package AlgorithmsOnGraphs;
+package AlgorithmsOnGraphs.week1;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
