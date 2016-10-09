@@ -195,8 +195,9 @@ public class SetRangeSum {
 
     boolean find(int x) {
         // Implement find yourself
-
-        return false;
+        if(root == null)
+            return false;
+        return (find(root, x).left.key == x);
     }
 
     long sum(int from, int to) {
@@ -274,3 +275,4 @@ public class SetRangeSum {
         return nextToken().charAt(0);
     }
 }
+
