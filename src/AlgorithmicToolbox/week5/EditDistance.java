@@ -25,7 +25,6 @@ class EditDistance {
             }
         }
 
-        //write your code here
         return distance[s.length()][t.length()];
     }
 
